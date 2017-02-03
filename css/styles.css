@@ -1,0 +1,22 @@
+div {
+   text-align: center;
+ }
+
+.header h1 {
+  font-family: cambria;
+  color: orange;
+  margin: 0 0 10 0;
+  background: grey;
+  padding: 10px;
+}
+
+.header img {
+  width: 500px;
+  position: relative;
+  top: 10px;
+}
+
+.intro {
+   font-family: cambria;
+   text-align: center;
+}
