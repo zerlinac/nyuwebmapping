@@ -27,7 +27,7 @@ $("#b1").click(function() { //each click pulls a random var from the varlist
     name + " is not fabulous at all."
 		];
   $(".display").html(insults[Math.floor(Math.random() * insults.length)])
-  //math.random generates random decimal number, then is multiplied by number of var in insults
+  //math.random generates random decimal number, then is multiplied by number of var in varlist
   //math.floor will round decimal down to nearest whole number
    });
 });
