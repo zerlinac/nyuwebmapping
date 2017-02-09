@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
     
-$("#b1").click(function() {
+$("#b1").click(function() { //each click pulls a random var from the varlist
 	var name = document.getElementById("name").value;
   var insults = [
     "That " + name + " is a bad hombre. No good. Very bad. Believe me, you want " + name + " out of country!",
@@ -27,5 +27,7 @@ $("#b1").click(function() {
     name + " is not fabulous at all."
 		];
   $(".display").html(insults[Math.floor(Math.random() * insults.length)])
+  //math.random generates random decimal number, then is multiplied by number of var in insults
+  //math.floor will round decimal down to nearest whole number
    });
 });
